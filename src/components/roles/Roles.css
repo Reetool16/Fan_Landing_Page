@@ -1,0 +1,83 @@
+.roles {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.role {
+  border-radius: 24px;
+  text-align: center;
+  padding: 32px;
+  width: 392px;
+  height: 256px;
+}
+
+.text-title {
+  font-family: "NohemiMedium", sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 32.14px;
+  text-align: left;
+}
+
+.text-para {
+  font-family: "NohemiRegular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  margin-top: 19px;
+  margin-bottom: 24px;
+}
+.content-nodes-text {
+  color: #edf0ff;
+}
+.orchestrators-text {
+  color: #1e1e1e;
+}
+.validators-text {
+  color: #1e1e1e;
+}
+.btn-text {
+  width: 200px;
+  height: 56px;
+  border-radius: 100px;
+  background-color: #ffffff;
+  border: none;
+  font-family: "NohemiSemiBold", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 16.07px;
+  color: #0c091b;
+}
+.btn-tag {
+  width: 119px;
+  height: 28px;
+  padding: 0px 8px 4px 8px;
+  border-radius: 12px;
+  transform: rotate(-12.8deg);
+  font-family: "NohemiMedium", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 19.2px;
+}
+.orchestrators-btntag {
+  border: 5px solid #ffc4f8;
+  background-color: #7a186f;
+}
+
+.validators-btntag {
+  border: 5px solid #6dffcf;
+  background-color: #0a9b6b;
+}
+
+.validators {
+  background-color: #adffe4;
+}
+.orchestrators {
+  background-color: #fe9bf3;
+}
+.content-nodes {
+  background-color: #6b61ff;
+}

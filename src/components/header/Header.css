@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap");
+.header {
+  text-align: center;
+  padding: 100px 0px;
+  color: white;
+  /* background: radial-gradient(circle at center, #1e1e2f 0%, #0a0a14 100%); */
+  background-image: url("../../assets/img/header_bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header h1 {
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-size: 56px;
+  font-weight: 800;
+  line-height: 84px;
+  text-align: center;
+  width: 1054px;
+  margin: 20px auto;
+  background: linear-gradient(to right, #ffffff 0%, #6b61ff 100%);
+  background-clip: text;
+  color: transparent;
+}
+
+.header p {
+  font-family: "NohemiMedium", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.2px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  margin-bottom: 42px;
+}
+
+.header button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 200px;
+  height: 56px;
+  border-radius: 100px;
+  background-color: #6c5ff5;
+  font-family: "NohemiSemiBold", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19.36px;
+  letter-spacing: 0.15000000596046448px;
+  color: #edf0ff;
+  border: none;
+}
+
+.statistics {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  margin: 370px 0px 58px;
+}

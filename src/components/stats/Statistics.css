@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap");
+
+.stat {
+  width: 608px;
+  height: 217px;
+  border-radius: 24px;
+  background-color: #ffffff;
+  padding: 32px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.stat h2 {
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-size: 86px;
+  font-weight: 600;
+  line-height: 103.2px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #1e1e1e;
+}
+
+.stat p {
+  font-family: "NohemiMedium", sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 32.14px;
+  text-align: left;
+  color: #1e1e1e;
+}
+.stat span {
+  font-family: "NohemiMedium", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16.07px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}

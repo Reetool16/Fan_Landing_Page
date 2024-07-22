@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "NohemiRegular";
+  src: local("NohemiRegular")
+    url("../src/assets/font/Nohemi-Regular-BF6438cc4d0e493.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "NohemiMedium";
+  src: local("NohemiMedium")
+    url("../src/assets/font/Nohemi-Medium-BF6438cc5883899.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "NohemiSemiBold";
+  src: local("NohemiSemiBold")
+    url("../src/assets/font/Nohemi-SemiBold-BF6438cc588a48a.ttf")
+    format("truetype");
+}

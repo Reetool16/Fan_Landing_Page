@@ -1,0 +1,36 @@
+.footer {
+  height: 600px;
+  background-color: #1e1e1e;
+}
+.custom-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 42px;
+  height: 100%;
+}
+.footer p:first-of-type {
+  font-family: "NohemiMedium", sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 38.4px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  background: linear-gradient(to right, #ffffff 40%, #5e5b5b 100%);
+  background-clip: text;
+  color: transparent;
+  margin: 0px;
+}
+
+.footer p:last-of-type {
+  font-family: "NohemiRegular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #d2d2d2;
+  width: 52%;
+  margin: 0 auto;
+}
