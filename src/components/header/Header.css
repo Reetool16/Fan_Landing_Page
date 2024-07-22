@@ -22,13 +22,12 @@
   color: transparent;
 }
 
-.header p {
+.header_txt {
   font-family: "NohemiMedium", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 19.2px;
   letter-spacing: 0.02em;
-  text-align: center;
   margin-bottom: 42px;
 }
 
