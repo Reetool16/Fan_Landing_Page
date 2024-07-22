@@ -19,7 +19,7 @@ const Header = () => {
     <section className="header">
       <header className="container">
         <h1>EMPOWERING THE DIGITAL ERA: DECENTRALIZING ENTERTAINMENT</h1>
-        <p>
+        <p className="header_txt">
           Join the world's first DcPIN: Revolutionizing Content Streaming with
           faster, safer, and cheaper access
         </p>
