@@ -12,7 +12,7 @@ const Statistics = ({ stats, statsText, statsDays }) => {
         <h2>{stats}</h2>
       </div>
       <div>
-        <img src={PlusIcon} alt="" />
+        <img src={PlusIcon} alt="plus icon" />
       </div>
     </div>
   );

@@ -53,7 +53,7 @@ const Roles = () => {
               <button className="btn-text">
                 {role.buttonText}{" "}
                 <span>
-                  <img src={RightDarkArrow} alt="" />
+                  <img src={RightDarkArrow} alt="dark arrow" />
                 </span>
               </button>
             ) : null}
@@ -69,9 +69,9 @@ const Roles = () => {
           </div>
           <div style={{ position: "absolute", bottom: "0", left: "0" }}>
             {role.title === "Validators" ? (
-              <img src={PatternDark} alt="validator" />
+              <img src={PatternDark} alt="dark_dot" />
             ) : (
-              <img src={Pattern} alt="" />
+              <img src={Pattern} alt="light_dot" />
             )}
           </div>
         </div>

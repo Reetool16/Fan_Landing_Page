@@ -26,17 +26,17 @@ const Header = () => {
         <button>
           Coming Soon
           <span>
-            <img src={RightArrow} alt="" />
+            <img src={RightArrow} alt="arrow" />
           </span>
         </button>
         <div style={{ position: "relative" }}>
           <div style={{ position: "absolute", top: "-54px" }}>
-            <img src={Header1} alt="  1" />
+            <img src={Header1} alt="header1" />
           </div>
           <div
             style={{ position: "absolute", left: "350px", bottom: "-132px" }}
           >
-            <img src={Header2} alt="  1" />
+            <img src={Header2} alt=" header2" />
           </div>
           <div
             style={{
@@ -49,22 +49,22 @@ const Header = () => {
             <img src={Header3} alt="  1" />
           </div>
           <div style={{ position: "absolute", right: "23%", top: "190px" }}>
-            <img src={Header4} alt="  1" />
+            <img src={Header4} alt="  2" />
           </div>
           <div style={{ position: "absolute", right: "15%" }}>
-            <img src={Header5} alt="  1" />
+            <img src={Header5} alt="  3" />
           </div>
           <div style={{ position: "absolute", right: "-20px", top: "156px" }}>
-            <img src={Header6} alt="  1" />
+            <img src={Header6} alt="  4" />
           </div>
           <div style={{ position: "absolute", top: "-16px", left: "29%" }}>
-            <img src={Header7} alt="  1" />
+            <img src={Header7} alt="  5" />
           </div>
           <div style={{ position: "absolute", top: "190px", right: "32%" }}>
-            <img src={Header8} alt="  1" height={"37px"} />
+            <img src={Header8} alt="  6" height={"37px"} />
           </div>
           <div style={{ position: "absolute", top: "210px", left: "40%" }}>
-            <img src={Header9} alt="  1" />
+            <img src={Header9} alt="  7" />
           </div>
         </div>
         <div className="statistics">
